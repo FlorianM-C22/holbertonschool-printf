@@ -2,36 +2,27 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
+#include "main.h"
 
-int _putchar(char c)
+/**
+ * _printf - prints a char string to stdout
+ * @format: The character to print
+ * Return: Length of the string minus NULL character
+ */
+int _printf(const char *format, ...)
 {
-	return (write(1, &c, 1));
-}
-
-typedef struct func_selec
-{
-	char *specifier;
-	int (*func_call)(va_list);
-} call;
-
-int _printchar(va_list c)
-{
-	return (_putchar(va_arg(c, int)));
-}
-
-call func_select[] = {
+	call func_select[] = {
 	{"c", _printchar},
-	/*{"s", _printstring},*/
+	{"s", _printstring},
 	/*{"%", _put_percent},*/
 	{NULL, NULL}
 };
 
-int _printf(const char *format, ...)
-{
 	int i, j;
 	int len = 0;
 
 	va_list ap;
+
 	va_start(ap, format);
 
 	for (i = 0; format[i] != '\0'; i++)
@@ -42,8 +33,14 @@ int _printf(const char *format, ...)
 			{
 				if (format[i + 1] == *func_select[j].specifier)
 				{
-					func_select[j].func_call(ap);
-					break;
+					if (*func_select[j].specifier == 'c')
+						func_select[j].func_call(ap);
+					else if (*func_select[j].specifier == 's')
+						func_select[j].func_call(ap);
+					/*else if (*func_select[j].specifier == '%')
+						func_select[j].func_call(ap);*/
+
+				break;
 				}
 			}
 			i++;
@@ -64,8 +61,9 @@ int main(void)
 {
 	int len;
 	int len2;
+	char c = 'a';
 
-	len = _printf("Let's try to printf a %c simple sentence.\n");
+	len = _printf("Let's try to printf a simple sentence.\n",);
 	len2 = printf("Let's try to printf a simple sentence.\n");
 	_printf("Length:[%d, %i]\n", len, len);
 	printf("Length:[%d, %i]\n", len2, len2);
