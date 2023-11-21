@@ -17,9 +17,8 @@ typedef struct call
 } call;
 
 int _printf(const char *format, ...);
-int _printchar(va_list ap);
-int _putchar(char c);
-int _printstring(va_list ap);
-int _put_percent(va_list ap);
+int _printchar(char c);
+void (_printstring(char *s));
+int _put_percent(char c);
 
 #endif
