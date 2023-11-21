@@ -17,11 +17,9 @@ int _printf(const char *format, ...)
 	/*{"%", _put_percent},*/
 	{NULL, NULL}
 };
-
+	va_list ap;
 	int i, j;
 	int len = 0;
-
-	va_list ap;
 
 	va_start(ap, format);
 
@@ -47,7 +45,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			_putchar(format[i]);
+			putchar(format[i]);
 			len++;
 		}
 	}
@@ -61,9 +59,10 @@ int main(void)
 {
 	int len;
 	int len2;
-	char c = 'a';
 
-	len = _printf("Let's try to printf a simple sentence.\n",);
+	_printf("String:[%s]\n", "I am a string !");
+	printf("String:[%s]\n", "I am a string !");
+	len = _printf("Let's try to printf a simple sentence.\n");
 	len2 = printf("Let's try to printf a simple sentence.\n");
 	_printf("Length:[%d, %i]\n", len, len);
 	printf("Length:[%d, %i]\n", len2, len2);

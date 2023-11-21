@@ -2,9 +2,15 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
-int _printstring(va_list ap)
+int (_printstring(va_list ap))
 {
-	/*Fonction print string*/
-	return (0);
+		int s;
+		char *str = va_arg(ap, char *);
+
+		for (s = 0; str[s] != '\0'; s++)
+			putchar(str[s]);
+
+		return (s);
 }
