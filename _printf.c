@@ -3,6 +3,11 @@
 #include <string.h>
 #include <stdarg.h>
 
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
 typedef struct func_selec
 {
 	char *specifier;
@@ -11,55 +16,59 @@ typedef struct func_selec
 
 int _printchar(va_list c)
 {
-	int c;
-
-	_putchar(va_arg(c, int));
+	return (_putchar(va_arg(c, int)));
 }
 
-/**
- * _printf - writes the output to stdout
- * @format: character string
- *
- * Return: the number of characters printed (excluding the NULL byte)
- * On error, -1 is returned, and errno is set appropriately.
- */
+call func_select[] = {
+	{"c", _printchar},
+	/*{"s", _printstring},*/
+	/*{"%", _put_percent},*/
+	{NULL, NULL}
+};
+
 int _printf(const char *format, ...)
 {
-	int i;
-	int len = strlen(format);
+	int i, j;
+	int len = 0;
 
 	va_list ap;
-
 	va_start(ap, format);
 
-	call func_select[] = {
-		{"c", _printchar},
-		/*{"s", _printstring},*/
-		/*{"%", _put_percent},*/
-		{NULL, NULL}
-	};
-
-	for (i = 0; i < len; i++)
+	for (i = 0; format[i] != '\0'; i++)
 	{
-
 		if (format[i] == '%')
 		{
-			if (format[i + 1] == *func_select[0].specifier)
-				func_select[0].func_call(ap);
+			for (j = 0; func_select[j].specifier != NULL; j++)
+			{
+				if (format[i + 1] == *func_select[j].specifier)
+				{
+					func_select[j].func_call(ap);
+					break;
+				}
+			}
+			i++;
 		}
-
-		/*if (format[i] == '%' && format[i + 1] == '%')
+		else
 		{
-			putchar('%');
-			i += 2;
+			_putchar(format[i]);
+			len++;
 		}
-		*/
+	}
 
 	va_end(ap);
 
-	putchar(format[i]);
-
-	}
-
 	return (len);
+}
+
+int main(void)
+{
+	int len;
+	int len2;
+
+	len = _printf("Let's try to printf a %c simple sentence.\n");
+	len2 = printf("Let's try to printf a simple sentence.\n");
+	_printf("Length:[%d, %i]\n", len, len);
+	printf("Length:[%d, %i]\n", len2, len2);
+
+	return (0);
 }
