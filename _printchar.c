@@ -4,11 +4,14 @@
 
 /**
  * _printchar - writes the character c to stdout calling _putchar
- *@c: The character to print
+ *@ap: argument pointer
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _printchar(va_list ap)
 {
-	return (putchar(va_arg(ap, int)));
+	char charac = (char)va_arg(ap, int);
+
+	putchar(charac);
+	return (1);
 }
