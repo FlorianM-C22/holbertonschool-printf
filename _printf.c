@@ -23,7 +23,7 @@ int _printf(const char *format, ...)
 
 	va_start(ap, format);
 
-	if (*format == '\0' && format[i + 1] == '\0')
+	if (format[i] == '\0' || (format[i] == '%' && format[i + 1] == '\0'))
 		return (-1);
 
 	len += func_select(format, func_array, ap);
