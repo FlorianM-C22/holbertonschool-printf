@@ -18,7 +18,7 @@ int func_select(const char *format, struct call func_array[], va_list ap)
 
 	for (i = 0; format[i] != '\0'; i++)
 	{
-		if (format[i] == '%')
+		if (format[i] == '%' && format[i + 1] != '\0')
 		{
 			for (j = 0; func_array[j].specifier != NULL; j++)
 			{
