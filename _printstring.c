@@ -4,6 +4,10 @@
 #include <string.h>
 #include "main.h"
 
+/**
+ * _printstring - prints a char string to stdout
+ * Return: Length of the string mins NULL character
+ */
 int (_printstring(va_list ap))
 {
 		int s;

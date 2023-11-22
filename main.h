@@ -19,6 +19,6 @@ typedef struct call
 int _printf(const char *format, ...);
 int _printchar(va_list ap);
 int (_printstring(va_list ap));
-int _put_percent(char c);
+int _put_percent(va_list ap);
 
 #endif

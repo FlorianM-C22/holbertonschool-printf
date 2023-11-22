@@ -6,7 +6,7 @@
 
 /**
  * _printf - prints a char string to stdout
- * @format: The character to print
+ * @format: The string to print
  * Return: Length of the string minus NULL character
  */
 int _printf(const char *format, ...)
@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 	call func_select[] = {
 	{"c", _printchar},
 	{"s", _printstring},
-	/*{"%", _put_percent},*/
+	{"%", _put_percent},
 	{NULL, NULL}
 };
 	va_list ap;
@@ -22,7 +22,6 @@ int _printf(const char *format, ...)
 	int len = 0;
 
 	va_start(ap, format);
-
 	for (i = 0; format[i] != '\0'; i++)
 	{
 		if (format[i] == '%')
@@ -35,9 +34,8 @@ int _printf(const char *format, ...)
 						func_select[j].func_call(ap);
 					else if (*func_select[j].specifier == 's')
 						func_select[j].func_call(ap);
-					/*else if (*func_select[j].specifier == '%')
-						func_select[j].func_call(ap);*/
-
+					else if (*func_select[j].specifier == '%')
+						func_select[j].func_call(ap);
 				break;
 				}
 			}
@@ -49,9 +47,7 @@ int _printf(const char *format, ...)
 			len++;
 		}
 	}
-
 	va_end(ap);
-
 	return (len);
 }
 
@@ -66,6 +62,8 @@ int main(void)
 	len2 = printf("Let's try to printf a simple sentence.\n");
 	_printf("Length:[%d, %i]\n", len, len);
 	printf("Length:[%d, %i]\n", len2, len2);
+	len = _printf("Percent:[%%]\n");
+	len2 = printf("Percent:[%%]\n");
 
 	return (0);
 }
