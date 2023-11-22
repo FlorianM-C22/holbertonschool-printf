@@ -38,8 +38,8 @@ int func_select(const char *format, struct call func_array[], va_list ap)
 				putchar('%');
 				putchar(format[i + 1]);
 				len += 2;
-				i++;
 			}
+			i++;
 		}
 		else
 		{
