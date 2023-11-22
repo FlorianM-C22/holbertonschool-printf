@@ -12,11 +12,11 @@
 int (_printstring(va_list ap))
 {
 		/* initialize a string*/
-		int s;
+		int s, count = 0;
 		char *str = va_arg(ap, char *);
 
 		for (s = 0; str[s] != '\0'; s++)
-			putchar(str[s]);
+			count += putchar(str[s]);
 
-		return (s);
+		return (count);
 }
