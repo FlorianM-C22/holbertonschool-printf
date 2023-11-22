@@ -18,11 +18,12 @@ int _printf(const char *format, ...)
 	{NULL, NULL}
 };
 	va_list ap;
+	int i = 0;
 	int len = 0;
 
 	va_start(ap, format);
 
-	if (*format == '\0')
+	if (*format == '\0' && format[i + 1] == '\0')
 		return (-1);
 
 	len += func_select(format, func_array, ap);
