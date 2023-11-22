@@ -35,5 +35,5 @@ int _printf(const char *format, ...)
 	len += func_select(format, func_array, ap);
 
 	va_end(ap);
-	return (len - 1);
+	return (len);
 }
