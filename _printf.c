@@ -1,0 +1,32 @@
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdarg.h>
+#include "main.h"
+
+/**
+ * _printf - prints a char string to stdout
+ * @format: The string to print
+ * Return: Length of the string minus NULL character
+ */
+int _printf(const char *format, ...)
+{
+	call func_array[] = {
+	{"c", _printchar},
+	{"s", _printstring},
+	{"%", _put_percent},
+	{NULL, NULL}
+};
+	va_list ap;
+	int len = 0;
+
+	va_start(ap, format);
+
+	if (*format == '\0')
+		return (-1);
+
+	len += func_select(format, func_array, ap);
+
+	va_end(ap);
+	return (len);
+}
