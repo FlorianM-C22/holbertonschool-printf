@@ -11,42 +11,22 @@
  */
 int _printf(const char *format, ...)
 {
-	call func_select[] = {
+	call func_array[] = {
 	{"c", _printchar},
 	{"s", _printstring},
 	{"%", _put_percent},
 	{NULL, NULL}
 };
 	va_list ap;
-	int i, j;
 	int len = 0;
 
 	va_start(ap, format);
-	for (i = 0; format[i] != '\0'; i++)
-	{
-		if (format[i] == '%')
-		{
-			for (j = 0; func_select[j].specifier != NULL; j++)
-			{
-				if (format[i + 1] == *func_select[j].specifier)
-				{
-					if (*func_select[j].specifier == 'c')
-						func_select[j].func_call(ap);
-					else if (*func_select[j].specifier == 's')
-						func_select[j].func_call(ap);
-					else if (*func_select[j].specifier == '%')
-						func_select[j].func_call(ap);
-				break;
-				}
-			}
-			i++;
-		}
-		else
-		{
-			putchar(format[i]);
-			len++;
-		}
-	}
+
+	if (*format == '\0')
+		return (-1);
+
+	len += func_select(format, func_array, ap);
+
 	va_end(ap);
 	return (len);
 }
