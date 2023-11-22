@@ -15,8 +15,11 @@ int (_printstring(va_list ap))
 		int s;
 		char *str = va_arg(ap, char *);
 
-		if (*str == '\0')
-			return (-1);
+		if (str == NULL)
+		{
+			write(1, "(null)", 6);
+			return (6);
+		}
 
 		for (s = 0; str[s] != '\0'; s++)
 			putchar(str[s]);
