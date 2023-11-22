@@ -6,10 +6,12 @@
 
 /**
  * _printstring - prints a char string to stdout
+ * @ap: argument parameters
  * Return: Length of the string mins NULL character
  */
 int (_printstring(va_list ap))
 {
+		/* initialize a string*/
 		int s;
 		char *str = va_arg(ap, char *);
 

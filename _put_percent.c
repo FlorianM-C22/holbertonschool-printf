@@ -6,6 +6,7 @@
 
 /**
  * _put_percent - prints the modulo sign
+ * @ap: argument parameters
  * Return: number of characters printed
  */
 int _put_percent(va_list ap)
