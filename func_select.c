@@ -49,3 +49,4 @@ int func_select(const char *format, struct call func_array[], va_list ap)
 	}
 	return (len);
 }
+
