@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 655 869" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-540.432,-59.9681)">
+        <g transform="matrix(1.00866,0,0,0.991304,387.155,-309.689)">
+            <path d="M737.951,398.82C737.951,384.793 726.758,373.404 712.972,373.404L660.823,373.404C647.037,373.404 635.844,384.793 635.844,398.82C635.844,412.848 647.037,424.236 660.823,424.236L712.972,424.236C726.758,424.236 737.951,412.848 737.951,398.82Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,105.771,-8.80284)">
+            <g transform="matrix(12,0,0,12,986.868,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">Start</text>
+        </g>
+        <g transform="matrix(1,0,0,1.09615,357.741,-278.628)">
+            <rect x="670.764" y="461.366" width="102.99" height="45.97" style="fill:none;stroke:black;stroke-width:0.95px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,93.4859,156.526)">
+            <g transform="matrix(12,0,0,12,1011.77,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">T<tspan x="966.888px " y="98.432px ">e</tspan>st input</text>
+        </g>
+        <g id="Decision---Conditionnal" serif:id="Decision / Conditionnal" transform="matrix(0.494577,-0.494577,0.462146,0.462146,515.49,460.449)">
+            <rect x="668.775" y="451.641" width="51.495" height="53.926" style="fill:none;stroke:black;stroke-width:1.48px;"/>
+        </g>
+        <g id="Decision---Conditionnal1" serif:id="Decision / Conditionnal" transform="matrix(0.494577,-0.494577,0.462146,0.462146,515.49,679.798)">
+            <rect x="668.775" y="451.641" width="51.495" height="53.926" style="fill:none;stroke:black;stroke-width:1.48px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,98.9254,242.448)">
+            <g transform="matrix(10,0,0,10,997.533,98.432)">
+            </g>
+            <text x="962.943px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:10px;">E<tspan x="968.483px " y="98.432px ">m</tspan>pty<tspan x="990.403px " y="98.432px "> </tspan>?</text>
+        </g>
+        <g transform="matrix(1,0,0,1,100.773,463.281)">
+            <g transform="matrix(10,0,0,10,999.838,98.432)">
+            </g>
+            <text x="960.638px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:10px;">meet % ?</text>
+        </g>
+        <g transform="matrix(1.01942,0,-0.433962,1,610.893,-303.119)">
+            <rect x="608.881" y="444.569" width="91.056" height="46.854" style="fill:none;stroke:black;stroke-width:1.22px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,91.3654,69.1092)">
+            <g transform="matrix(12,0,0,12,1014.23,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">U<tspan x="969.444px " y="98.432px ">s</tspan>er<tspan x="985.044px " y="98.432px "> </tspan>input</text>
+        </g>
+        <g transform="matrix(1,0,0,1.09615,357.247,-58.9255)">
+            <rect x="670.764" y="461.366" width="102.99" height="45.97" style="fill:none;stroke:black;stroke-width:0.95px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1.09615,357.247,-125.926)">
+            <rect x="670.764" y="461.366" width="102.99" height="45.97" style="fill:none;stroke:black;stroke-width:0.95px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1.09615,162.435,107.715)">
+            <rect x="670.764" y="461.366" width="102.99" height="45.97" style="fill:none;stroke:black;stroke-width:0.95px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1.09615,23.4351,107.715)">
+            <rect x="670.764" y="461.366" width="102.99" height="45.97" style="fill:none;stroke:black;stroke-width:0.95px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-394.555,543.158)">
+            <g transform="matrix(12,0,0,12,1012.21,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">R<tspan x="968.28px " y="98.432px ">e</tspan>turn (<tspan x="1002.05px 1008.13px " y="98.432px 98.432px ">0)</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,-187.686,238.464)">
+            <g transform="matrix(12,0,0,12,1045.88,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">Exit - R<tspan x="998.028px " y="98.432px ">e</tspan>turn (-<tspan x="1036.81px 1041.8px " y="98.432px 98.432px ">1)</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,75.6874,376.421)">
+            <g transform="matrix(12,0,0,12,1048.61,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">print until % char</text>
+        </g>
+        <g transform="matrix(1,0,0,1,93.8254,304.198)">
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">Init.<tspan x="980.712px " y="98.432px ">C</tspan>ount</text>
+            <g transform="matrix(12,0,0,12,1001.14,110.432)">
+            </g>
+            <text x="971.826px" y="110.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">strlen</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-119.124,543.062)">
+            <g transform="matrix(12,0,0,12,1025.71,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">print until \<tspan x="1019.04px " y="98.432px ">0</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,-258.124,543.062)">
+            <g transform="matrix(12,0,0,12,1027.84,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">print counter</text>
+        </g>
+        <g transform="matrix(1,0,0,1,0,61)">
+            <g transform="matrix(1,-0,-0,1,540.432,-1.03187)">
+                <path d="M484.581,409.775L487.578,412.029L484.575,414.275L484.581,409.775Z"/>
+                <path d="M526.093,486.428L420.749,485.569L422.081,411.945C422.081,411.945 473.378,412.011 485.178,412.026" style="fill:none;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1.09615,357.247,105.835)">
+            <rect x="670.764" y="461.366" width="102.99" height="45.97" style="fill:none;stroke:black;stroke-width:0.95px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,72.9394,541.266)">
+            <g transform="matrix(12,0,0,12,1032.62,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">T<tspan x="966.888px " y="98.432px ">e</tspan>st next char</text>
+        </g>
+        <g id="Decision---Conditionnal2" serif:id="Decision / Conditionnal" transform="matrix(0.494577,-0.494577,0.462146,0.462146,514.826,830.727)">
+            <rect x="668.775" y="451.641" width="51.495" height="53.926" style="fill:none;stroke:black;stroke-width:1.48px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,100.157,611.67)">
+            <g transform="matrix(10,0,0,10,984.25,98.432)">
+            </g>
+            <g transform="matrix(10,0,0,10,987.494,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:10px;">Speciﬁer</text>
+            <g transform="matrix(10,0,0,10,988.98,108.432)">
+            </g>
+            <text x="970.63px" y="108.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:10px;">!= %</text>
+        </g>
+        <g transform="matrix(1,0,0,1,146.89,621.67)">
+            <g transform="matrix(12,0,0,12,976.032,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">N<tspan x="969.744px " y="98.432px ">o</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,92.3235,694.154)">
+            <text x="973.23px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">What</text>
+            <g transform="matrix(12,0,0,12,987.6,110.432)">
+            </g>
+            <g transform="matrix(12,0,0,12,991.493,110.432)">
+            </g>
+            <g transform="matrix(12,0,0,12,1013.15,110.432)">
+            </g>
+            <text x="961.2px" y="110.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">speciﬁer ?</text>
+        </g>
+        <g transform="matrix(1,0,0,1,423.932,274.166)">
+            <path d="M630.098,496.285L617.28,496.285L617.28,546.675L630.1,546.675" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(-1,0,0,1,1735.08,274.166)">
+            <path d="M630.098,496.285L617.28,496.285L617.28,546.675L630.1,546.675" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g id="Documents" transform="matrix(1,0,0,2.51249,348.178,-83.2664)">
+            <path d="M720.27,376.056L617.28,376.056L617.28,394.179C617.28,394.179 632.161,391.924 645.569,391.924C658.535,391.924 680.415,396.112 692.865,396.112C701.263,396.112 720.27,394.179 720.27,394.179L720.27,376.056Z" style="fill:none;stroke:black;stroke-width:0.52px;"/>
+        </g>
+        <g id="Documents1" serif:id="Documents" transform="matrix(1,0,0,2.51249,474.273,-82.0604)">
+            <path d="M720.27,376.056L617.28,376.056L617.28,394.179C617.28,394.179 632.161,391.924 645.569,391.924C658.535,391.924 680.415,396.112 692.865,396.112C701.263,396.112 720.27,394.179 720.27,394.179L720.27,376.056Z" style="fill:none;stroke:black;stroke-width:0.52px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,51.0303,792.294)">
+            <g transform="matrix(12,0,0,12,966.864,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">c</text>
+        </g>
+        <g transform="matrix(1,0,0,1,177.125,793.5)">
+            <g transform="matrix(12,0,0,12,966.648,98.432)">
+            </g>
+            <text x="961.2px" y="98.432px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">s</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-3.65294,61)">
+            <g transform="matrix(1,-0,-0,1,544.085,-1.03187)">
+                <path d="M593.613,414.217L590.568,412.029L593.521,409.718L593.613,414.217Z"/>
+                <path d="M564.932,648.487L643.098,648.487L643.952,410.938C643.952,410.938 603.358,411.768 592.968,411.98" style="fill:none;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1.00866,0,0,0.991304,-100.417,243.286)">
+            <path d="M737.951,398.82C737.951,384.793 726.758,373.404 712.972,373.404L660.823,373.404C647.037,373.404 635.844,384.793 635.844,398.82C635.844,412.848 647.037,424.236 660.823,424.236L712.972,424.236C726.758,424.236 737.951,412.848 737.951,398.82Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1.00866,0,0,0.991304,121.326,-61.2283)">
+            <path d="M737.951,398.82C737.951,384.793 726.758,373.404 712.972,373.404L660.823,373.404C647.037,373.404 635.844,384.793 635.844,398.82C635.844,412.848 647.037,424.236 660.823,424.236L712.972,424.236C726.758,424.236 737.951,412.848 737.951,398.82Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0,61)">
+            <g transform="matrix(1,-0,-0,1,540.432,-1.03187)">
+                <path d="M383.704,550.463L381.47,553.475L379.204,550.488L383.704,550.463Z"/>
+                <path d="M526.093,509.666L381.231,510.049C381.231,510.049 381.407,541.967 381.457,551.075" style="fill:none;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,7.135,33.1786)">
+            <g transform="matrix(12,0,0,12,1041.02,526.11)">
+            </g>
+            <text x="1028.36px" y="526.11px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">no</text>
+        </g>
+        <g transform="matrix(1,0,0,1,58.8393,78.9443)">
+            <g transform="matrix(12,0,0,12,1043.41,526.11)">
+            </g>
+            <text x="1025.96px" y="526.11px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">Y<tspan x="1032px " y="526.11px ">e</tspan>s</text>
+        </g>
+        <g transform="matrix(1,0,0,1,6.34273,-192.288)">
+            <g transform="matrix(12,0,0,12,1043.41,526.11)">
+            </g>
+            <text x="1025.96px" y="526.11px" style="font-family:'QuestaSans-Regular', 'Questa Sans';font-size:12px;">Y<tspan x="1032px " y="526.11px ">e</tspan>s</text>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M328.231,280.423L325.233,278.171L328.235,275.923L328.231,280.423Z"/>
+            <path d="M514.542,278.314C514.542,278.314 349.573,278.189 327.633,278.173" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M541.177,548.565L539.737,551.594L538.178,548.625L541.177,548.565Z"/>
+            <path d="M539.162,522.715C539.162,522.715 539.552,542.266 539.69,549.195" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M541.973,249.965L539.737,252.976L537.473,249.987L541.973,249.965Z"/>
+            <path d="M539.568,217.521C539.568,217.521 539.688,242.606 539.726,250.576" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M541.445,316.508L539.073,319.412L536.949,316.322L541.445,316.508Z"/>
+            <path d="M539.737,303.366C539.737,303.366 539.358,312.539 539.172,317.014" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M541.987,383.834L539.737,386.834L537.487,383.834L541.987,383.834Z"/>
+            <path d="M539.737,370.224L539.737,384.434" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M541.934,708.326L539.737,711.365L537.435,708.406L541.934,708.326Z"/>
+            <path d="M539.073,673.644C539.073,673.644 539.549,700.661 539.695,708.966" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <path d="M1080.17,820.5L1080.17,840.32" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1016.44,840.32L1142.75,840.32" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M477.509,798.603L476.009,801.603L474.509,798.603L477.509,798.603Z"/>
+            <path d="M476.009,780.352L476.009,799.203" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M603.816,799.809L602.316,802.809L600.816,799.809L603.816,799.809Z"/>
+            <path d="M602.316,780.352L602.316,800.409" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M259.757,580.17L256.757,578.67L259.757,577.17L259.757,580.17Z"/>
+            <path d="M292.766,578.67L259.157,578.67" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M106.49,580.17L103.49,578.67L106.49,577.17L106.49,580.17Z"/>
+            <path d="M153.766,578.67L105.89,578.67" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-26.0676,-5.85789)">
+            <path d="M1039.68,911.961L1039.95,929.925" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,101.12,-5.85789)">
+            <path d="M1039.68,912.892L1039.95,929.925" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M342.762,606.865L344.262,603.865L345.762,606.865L342.762,606.865Z"/>
+            <path d="M600.371,864.098L344.262,864.098L344.262,606.265" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M541.068,78.482L539.568,81.482L538.068,78.482L541.068,78.482Z"/>
+            <path d="M539.568,50.89L539.568,79.082" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M541.068,164.131L539.568,167.131L538.068,164.131L541.068,164.131Z"/>
+            <path d="M539.568,128.336L539.568,164.731" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M540.573,620.254L539.073,623.254L537.573,620.254L540.573,620.254Z"/>
+            <path d="M539.073,601.984L539.073,620.854" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(1,-0,-0,1,540.432,59.9681)">
+            <path d="M542.259,469.325L540.759,472.325L539.259,469.325L542.259,469.325Z"/>
+            <path d="M540.759,437.224L540.759,469.925" style="fill:none;stroke:black;stroke-width:1px;"/>
+        </g>
+    </g>
+</svg>
