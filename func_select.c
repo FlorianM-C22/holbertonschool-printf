@@ -20,28 +20,25 @@ int func_select(const char *format, struct call func_array[], va_list ap)
 	{
 		if (format[i] == '%')
 		{
+			int specifier_found = 0;
+
 			for (j = 0; func_array[j].specifier != NULL; j++)
 			{
 				if (format[i + 1] == *func_array[j].specifier)
 				{
-					if (*func_array[j].specifier == 'c')
-						len += func_array[j].func_call(ap);
-					else if (*func_array[j].specifier == 's')
-						len += func_array[j].func_call(ap);
-					else if (*func_array[j].specifier == '%')
-						len += func_array[j].func_call(ap);
-					else if (*func_array[j].specifier == 'd')
-						len += func_array[j].func_call(ap);
-					else if (*func_array[j].specifier == 'i')
-						len += func_array[j].func_call(ap);
+					/* Handle known specifiers here */
+					len += func_array[j].func_call(ap);
+					specifier_found = 1;
+					break;
 				}
 			}
-			/*if (func_array[j].specifier == NULL && format[i + 1] != '%')
+
+			if (!specifier_found)
 			{
 				putchar('%');
 				putchar(format[i + 1]);
 				len += 2;
-			}*/
+			}
 			i++;
 		}
 		else
