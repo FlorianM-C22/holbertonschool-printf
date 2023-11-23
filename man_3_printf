@@ -10,7 +10,7 @@
 
 _printf FORMAT [ARGUMENT]...
 
-.Nm prototypes int the file : main.h
+.Nm Prototypes in the file : main.h
 .Pp
 They are :
 .Pp
