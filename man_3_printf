@@ -1,0 +1,49 @@
+.Dd 8/4/10               \" DATE
+.Dt _printf man_3_printf     \" Program name and manual section number
+.Os Ubuntu
+.Sh NAME                 \" Section Header - required - don't modify
+.Nm _printf
+.\" The following lines are read in generating the apropos(man -k) database. Use only key
+.\" words here as the database is built based on the words here and in the .ND line.
+.Nm -format and print data + count characters in the input
+.Sh SYNOPSIS             \" Section Header - required - don't modify
+.Nm prototypes are the file : main.h
+.Pp
+They are :
+.Pp
+int _printf(const char *format, ...);
+.Pp
+int _printchar(va_list ap);
+.Pp
+int (_printstring(va_list ap));
+.Pp
+int _put_percent(va_list ap);
+.Pp
+int func_select(const char *format, struct call func_array[], va_list ap);
+.Pp
+int _print_decimal(va_list ap);
+
+.Sh DESCRIPTION          \" Section Header - required - don't modify
+Print ARGUMENT(s) according to FORMAT , or execute according to OPTION
+.Pp
+%s : print string
+.Pp
+%d : print decimal
+.Pp
+%c : Print character
+.Pp
+%i : Print integer
+.Pp
+%% : print string if percent is include in a phrase
+
+.Sh RETURN VALUE
+Return (0) : success
+.Pp
+Return (-1) : Oups
+
+.Sh EXAMPLE
+printf(" %s ") : print string
+
+
+.\" .Sh BUGS              \" Document known, unremedied bugs
+.\" .Sh HISTORY           \" Document history if command behaves in a unique manner
