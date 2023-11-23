@@ -21,5 +21,7 @@ int _printchar(va_list ap);
 int (_printstring(va_list ap));
 int _put_percent(va_list ap);
 int func_select(const char *format, struct call func_array[], va_list ap);
+int _print_decimal(va_list ap);
+
 
 #endif

@@ -30,7 +30,10 @@ int func_select(const char *format, struct call func_array[], va_list ap)
 						len += func_array[j].func_call(ap);
 					else if (*func_array[j].specifier == '%')
 						len += func_array[j].func_call(ap);
-				break;
+					else if (*func_array[j].specifier == 'd')
+						len += func_array[j].func_call(ap);
+					else if (*func_array[j].specifier == 'i')
+						len += func_array[j].func_call(ap);
 				}
 			}
 			if (func_array[j].specifier == NULL && format[i + 1] != '%')
