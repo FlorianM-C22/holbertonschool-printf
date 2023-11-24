@@ -1,4 +1,4 @@
-## _Printf
+## _printf
 <img src="https://github.com/FlorianM-C22/holbertonschool-printf/blob/main/1.png" width="50%" height="50%">
 
 Description : _printf - write output to stdout, the standard output stream
