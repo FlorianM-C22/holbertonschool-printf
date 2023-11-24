@@ -5,20 +5,29 @@
 .Nm _printf
 .\" The following lines are read in generating the apropos(man -k) database. Use only key
 .\" words here as the database is built based on the words here and in the .ND line.
-.Nm -format and print data + count characters in the input
-.Sh SYNOPSIS             \" Section Header - required - don't modify
-.Nm prototypes int the file : main.h
+.Nm - format and print data
+.Sh SYNOPSIS
+
+_printf FORMAT [ARGUMENT]...
+
+.Nm Prototypes in the file : main.h
 .Pp
 They are :
 .Pp
 int _printf(const char *format, ...);
-.Pp int _printchar(va_list ap);
-.Pp int (_printstring(va_list ap));
-.Pp int _put_percent(va_list ap);
-.Pp int func_select(const char *format, struct call func_array[], va_list ap);
-.Pp int _print_decimal(va_list ap);
+.Pp
+int _printchar(va_list ap);
+.Pp
+int (_printstring(va_list ap));
+.Pp
+int _put_percent(va_list ap);
+.Pp
+int func_select(const char *format, struct call func_array[], va_list ap);
+.Pp
+int _print_decimal(va_list ap);
 
 .Sh DESCRIPTION          \" Section Header - required - don't modify
+
 Print ARGUMENT(s) according to FORMAT , or execute according to OPTION
 .Pp
 %s : print string
@@ -30,12 +39,31 @@ Print ARGUMENT(s) according to FORMAT , or execute according to OPTION
 %% : print string if percent is include in a phrase
 
 .Sh RETURN VALUE
-Return (0) : success
-.Pp
-Return (-1) : Oups
 
-.Sh EXAMPLE
-printf(" %s ") : print string
+Return : The number of characters printed minus the NULL character.
+.Pp
+Return (-1) : Error
+
+.Sh EXAMPLES
+.It
+Print a string
+.It
+_printf("I am currently printing a string\\n");
+.It
+_printf("%s\\n", "I am currently printing a string\\n");
+.Pp
+Print a character
+.It
+_printf("I am a character c\\n");
+.It
+_printf("I am a character %c\\n", c);
+.Pp
+Print a number
+.It
+_printf("%d, %d\\n", 9, 8);
+
+.Sh AUTHORS
+Florent Fouquet, Thibault Boulay, Florian Meignan - #C22 Laval
 
 
 .\" .Sh BUGS              \" Document known, unremedied bugs
