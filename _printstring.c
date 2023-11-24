@@ -22,7 +22,7 @@ int (_printstring(va_list ap))
 			return (6);
 		}
 		/*Iterate through the string and print each character*/
-		for (s = 0; str[i] != '\0'; i++)
+		for (i = 0; str[i] != '\0'; i++)
 			putchar(str[i]);
 
 		/*Return the length of the string excluding NULL char*/

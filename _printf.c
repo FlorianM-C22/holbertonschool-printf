@@ -30,6 +30,7 @@ int _printf(const char *format, ...)
 	/*Checking for empty string*/
 	if (*format == '\0')
 		return (-1);
+
 	/*Checks for the special case of "%" and a space*/
 	if (format[i] == '%' && format[i + 1] == ' ' && format[i + 2] == '\0')
 	{
