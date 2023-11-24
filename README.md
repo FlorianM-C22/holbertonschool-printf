@@ -1,5 +1,5 @@
 ## _Printf
-![Logo](https://github.com/FlorianM-C22/holbertonschool-printf/blob/main/1.png?raw=true)
+![Logo](https://github.com/FlorianM-C22/holbertonschool-printf/blob/main/1.png?size=75%)
 
 Description : _printf - write output to stdout, the standard output stream
 ## Description
