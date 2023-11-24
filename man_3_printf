@@ -63,7 +63,7 @@ Print a number
 _printf("%d, %d\\n", 9, 8);
 
 .Sh AUTHORS
-Florent Fouquet, Thibault Boulay, Florian Meignan - #C22 Laval
+Florent Fouquet, Florian Meignan - #C22 Laval
 
 
 .\" .Sh BUGS              \" Document known, unremedied bugs
