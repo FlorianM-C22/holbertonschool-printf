@@ -1,5 +1,5 @@
 ## _Printf
-<img src="https://github.com/FlorianM-C22/holbertonschool-printf/blob/main/1.png" width="75%" height="75%">
+<img src="https://github.com/FlorianM-C22/holbertonschool-printf/blob/main/1.png" width="50%" height="50%">
 
 Description : _printf - write output to stdout, the standard output stream
 ## Description
@@ -23,7 +23,16 @@ _printf("Let's try to printf a simple sentence.\n");
 ```
 Output : Let's try to printf a simple sentence.
 
+```code
+_printf("Character:[%c]\n", 'H');
+```
+Output : Character: [H]
+
+```code
+ _printf("Negative:[%d]\n", -762534);
+```
+Output : Negative:[-762534]
+
 ## Flowchart
 
-![Logo](https://github.com/FlorianM-C22/holbertonschool-printf/blob/main/HBTN_Flowchart/Printf-Flowchart.png?raw=true)
-
+<img src="https://github.com/FlorianM-C22/holbertonschool-printf/blob/main/HBTN_Flowchart/Printf-Flowchart.png">
