@@ -11,6 +11,7 @@
  */
 int _printf(const char *format, ...)
 {
+	/*Array of function pointers and corresponding format specifiers*/
 	call func_array[] = {
 	{"c", _printchar},
 	{"s", _printstring},
@@ -20,22 +21,25 @@ int _printf(const char *format, ...)
 	{NULL, NULL}
 };
 	va_list ap;
-	int i = 0;
-	int len = 0;
+
+	int i = 0; /*Index value*/
+	int len = 0;/*Tracking length*/
 
 	va_start(ap, format);
 
+	/*Checking for empty string*/
 	if (*format == '\0')
 		return (-1);
-
+	/*Checks for the special case of "%" and a space*/
 	if (format[i] == '%' && format[i + 1] == ' ' && format[i + 2] == '\0')
 	{
 		putchar('%');
 		putchar(' ');
 	}
-
+	/*Calls the function selector*/
 	len += func_select(format, func_array, ap);
 
 	va_end(ap);
+	/*Returns the number of characters printed excluding NULL char*/
 	return (len);
 }

@@ -11,18 +11,20 @@
  */
 int (_printstring(va_list ap))
 {
-		/* initialize a string*/
-		int s;
-		char *str = va_arg(ap, char *);
+	/*Extract string argument from the list*/
+	char *str = va_arg(ap, char *);
+	int i;/*Index value*/
 
+		/*Checks if the string is NULL and print (null) if so*/
 		if (str == NULL)
 		{
 			write(1, "(null)", 6);
 			return (6);
 		}
+		/*Iterate through the string and print each character*/
+		for (s = 0; str[i] != '\0'; i++)
+			putchar(str[i]);
 
-		for (s = 0; str[s] != '\0'; s++)
-			putchar(str[s]);
-
-		return (s);
+		/*Return the length of the string excluding NULL char*/
+		return (i);
 }

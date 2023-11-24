@@ -10,8 +10,10 @@
  */
 int _printchar(va_list ap)
 {
+	/*Extract the character argument from the list*/
 	char charac = (char)va_arg(ap, int);
-
+	/*Calling putchar to write the character*/
 	putchar(charac);
+	/*Return the number of characters printed*/
 	return (1);
 }

@@ -11,9 +11,9 @@
  */
 int _put_percent(va_list ap)
 {
-	(void)ap;
+	(void)ap; /*Ignores the parameter list*/
 
-	putchar('%');
+	putchar('%');/*Prints "%"*/
 
-	return (1);
+	return (1);/*Return the number of characters printed*/
 }
